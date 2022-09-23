@@ -456,3 +456,119 @@ header {
     background-color: #B28756;
 }
 
+.section-client {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-client-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-client-role {
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0px 30px 0px;
+}
+
+.section-client-area p {
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(138, 136, 136);
+}
+
+.default.light .sliders-pointers {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.default.light .pointer {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #B28756;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.default.light .pointer.active {
+    background-color: #B28756;
+}
+
+section.default.light.company {
+    background-color: #FFF;
+}
+
+
+.section-company {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section-company img {
+    padding: 10px;
+}
+
+.section-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-price-area {
+    width: 250px;
+    height: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-price-area h1 {
+    margin-top: 5px;
+}
+
+.section-price-details {
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+}
+
+.section-price-month {
+    font-size: 11px;
+    color: #999;
+    margin: 5px 0px 20px 0px;
+}
+
+.button-price {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a.button-price:hover,
+a.button-price.active {
+    background-color: #B28756;
+}
