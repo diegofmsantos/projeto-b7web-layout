@@ -452,7 +452,8 @@ header {
     margin-right: 10px;
 }
 
-.section-team-social a:hover {
+.section-team-social a:hover,
+.section-team-social a.active {
     background-color: #B28756;
 }
 
@@ -571,4 +572,61 @@ section.default.light.company {
 a.button-price:hover,
 a.button-price.active {
     background-color: #B28756;
+}
+
+.default.light .section-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-premium {
+    display: flex;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.5);
+}
+
+.section-premium-books {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.section-premium-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-premium-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.section-premium-content img {
+    margin-right: 20px;
+    width: 28px;
+    height: 25px;
+}
+
+.section-premium-subtitle {
+    color: #999;
+    margin-left: 50px;
+}
+
+.button-premium {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #B28756;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
 }
