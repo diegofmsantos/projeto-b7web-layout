@@ -542,6 +542,7 @@ section.default.light.company {
 }
 
 .section-price-area h1 {
+    font-size: 30px;
     margin-top: 5px;
 }
 
@@ -572,6 +573,10 @@ section.default.light.company {
 a.button-price:hover,
 a.button-price.active {
     background-color: #B28756;
+}
+
+.default.light.premium {
+    background-color: #FFF;
 }
 
 .default.light .section-body {
