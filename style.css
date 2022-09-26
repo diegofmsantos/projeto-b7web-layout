@@ -640,5 +640,41 @@ a.button-price.active {
 .section-facts {
     display: flex;
     justify-content: space-around;
-   
+    align-items: center;
+}
+
+.section-facts-area {
+    width: 178px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.facts-area-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #B28756;
+}
+
+.facts-area-division {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -2px;
+    color: #999;
+}
+
+div.facts-area-subtitle {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.facts-area-details {
+    font-size: 11px;
+    color: #999;
+    margin-top: 10px;
 }
