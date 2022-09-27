@@ -12,7 +12,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 header {
