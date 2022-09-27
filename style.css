@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* CSS DA INTERFACE */
@@ -948,6 +949,11 @@ input#iemail {
 }
 
 @media (max-width: 450px) {
+
+    body {
+        overflow: hidden;
+    }
+
     .logo {
         margin-left: 30px;
     }
