@@ -18,8 +18,8 @@
                 <div class="logoimg"></div>
             </div>
             <div class="menu">
-                <img class="menu-burguer" src="imagens/icones/menu.png" alt="menu-burguer">
-                <nav>
+                <img class="menu-burguer" src="imagens/icones/menu.png" alt="menu-burguer" onclick="clickMenu()">
+                <nav id="menu">
                     <ul>
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
@@ -552,6 +552,16 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 
 </body>
 </html>

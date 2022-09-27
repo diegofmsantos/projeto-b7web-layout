@@ -978,10 +978,10 @@ input#iemail {
     }
 
     .menu li a {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
-        margin-left: 50px;
-        height: 80px;
+        margin-left: 30px;
+        height: 60px;
         border: 0;
     }
 
@@ -989,6 +989,14 @@ input#iemail {
     .menu li a:hover {
         border: 0;
         color: #B28756;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner h2 {
+        font-size: 17px;
     }
 
     .section-aboutus {
@@ -1002,6 +1010,11 @@ input#iemail {
 
     .section-aboutus-right {
         width: auto;
+        margin: 0px 30px;
+    }
+
+    .section-aboutus-right img {
+        width: 100%;
     }
 
     .section-services {
@@ -1009,7 +1022,7 @@ input#iemail {
     }
 
     .section-service {
-        min-width: 50%;
+        min-width: 100%;
         margin-bottom: 30px;
     }
 
@@ -1017,8 +1030,27 @@ input#iemail {
         border-left: 0;
     }
 
+    .section-projects-filters {
+        margin: 0px 30px;
+    }
+
+    .section-projects-filters ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .section-projects-filters li {
+        flex: 1;
+        text-align: center;
+    }
+
     .section-team {
-        max-width: 580px;
+        max-width: 280px;
+    }
+
+    .section-client-area {
+        padding: 25px;
     }
 
     .section-company {
@@ -1030,7 +1062,12 @@ input#iemail {
     }
 
     .section-premium {
+        flex-direction: column;
         padding: 20px;
+    }
+
+    .section-premium-books, .section-premium-content {
+        padding: 30px;
     }
 
     .section-facts {
@@ -1047,12 +1084,50 @@ input#iemail {
         margin-top: 15px;
     }
 
+    .section-contact {
+        width: 350px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    form br {
+        display: none;
+    }
+
+    form a {
+        margin: auto;
+    }
+
+    input#nome, input#email, input#subject, input#msg {
+    width: 300px;
+    margin: 0px;
+    }
+
+    input#msg {
+        height: 100px;
+    }
+
     .section-map {
-        padding: 30px;
+        padding: 0px;
+        height: 700px;
     }
 
     .section-map-area-info {
         width: auto;
+    }
+
+    .section-footer-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-footer-area p {
+        text-align: justify;
     }
 }
 
