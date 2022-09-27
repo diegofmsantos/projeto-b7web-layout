@@ -645,7 +645,7 @@ a.button-price.active {
 
 .section-facts-area {
     width: 178px;
-    height: 150px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -666,7 +666,7 @@ a.button-price.active {
     color: #999;
 }
 
-div.facts-area-subtitle {
+.facts-area-subtitle {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
@@ -676,7 +676,162 @@ div.facts-area-subtitle {
 .facts-area-details {
     font-size: 11px;
     color: #999;
-    margin-top: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    border: none;
+    border-bottom: 2px solid rgb(167, 165, 165);
+    padding: 5px;
+}
+
+::placeholder {
+    font-size: 11px;
+    color: rgb(156, 155, 155);
+}
+
+input#nome {
+    background-color: #F7F7F7;
+    margin: 0px 30px 30px 0px;
+}
+
+input#email {
+    background-color: #F7F7F7;
+}
+
+input#subject {
+    width: 390px;
+    margin-bottom: 50px;
+    background-color: #F7F7F7;
+}
+
+input#msg {
+    width: 390px;
+    background-color: #F7F7F7;
+}
+
+.section-map {
+    background-image: url('imagens/complementos/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0px 30px 0px;
+    height: 400px;
+}
+
+.section-map-area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map-area-info {
+    width: 50%;
+    padding: 30px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.section-map-area-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(116, 114, 114);
+}
+
+.section-map-icons {
+    display: flex;
+    align-items: center;
+}
+
+.section-map-area-info-item img {
+    background-color: rgb(148, 144, 144);
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #000;
+}
+
+.section-footer-area {
+    width: 100vw;
+    max-width: 1140px;
+    background-color: #000;
+    color: #999;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    padding: 30px;
+}
+
+.section-footer-social {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.section-footer-social a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(88, 87, 87);
+    border-radius: 50px;
+}
+
+.section-footer-social img {
+    width: 15px;
+    height: 15px;
+   
+}
+
+.section-footer-social a:hover,
+.section-footer-social a.active {
+    background-color: #B28756;
+}
+
+.section-footer-text {
+    flex: 1;
+}
+
+.section-footer-form {
+    flex: 1;
+}
+
+.section-footer-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(44, 43, 43);
+    padding: 20px;
+}
+
+input#iemail {
+    background-color: rgb(44, 43, 43);
+}
+
+.button-footer {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #B28756;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: auto;
 }
 
 
