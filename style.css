@@ -12,7 +12,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -727,8 +727,7 @@ input#msg {
 }
 
 .section-map-area {
-    width: 100vw;
-    max-width: 1140px;
+    width: auto;
     margin: auto;
 }
 
@@ -839,7 +838,8 @@ input#iemail {
     margin: auto;
 }
 
-@media (min-width: 450px) and (max-width: 800px) {
+@media (min-width: 450px) and (max-width: 1024px) {
+
     .logo {
         margin-left: 30px;
     }
@@ -940,19 +940,18 @@ input#iemail {
     }
 
     .section-map {
+        max-width: 1024px;
         padding: 30px;
     }
 
     .section-map-area-info {
-        width: auto;
+        max-width: 1024px;
     }
 }
 
 @media (max-width: 450px) {
 
-    body {
-        overflow: hidden;
-    }
+    
 
     .logo {
         margin-left: 30px;
@@ -1069,11 +1068,11 @@ input#iemail {
 
     .section-premium {
         flex-direction: column;
-        padding: 20px;
+        padding: 0px 0px 0px 10px;
     }
 
     .section-premium-books, .section-premium-content {
-        padding: 30px;
+        padding: 0px 0px 0px 10px;
     }
 
     .section-facts {
